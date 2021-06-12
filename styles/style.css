@@ -1,68 +1,28 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  background-image: url("../images/bgtile.png");
-  background-repeat: repeat-x;
-}
-.loginWrapper{
-  width: 100px;
+.main{
   display: flex;
-  justify-content:space-between;
-  flex-wrap:nowrap;
-  align-items: center;
-  flex-direction: row;
-  
-}
-.flex-direction {
-
-  width: 400px;
-  display: flex;
-  justify-content:space-between;
-  flex-wrap:nowrap;
-  align-items:baseline;
-  
-  flex-direction: row;
-  margin-left: 200px;
-  
-
-}
-.textbackground{
-  background-image: url("../images/frame.png");
-  width: 400px;
-  flex-direction: row;
-  justify-content:space-between;
-  
-}
-.phoneImage{
-  width: 10px;
-  display: flex;
-  justify-content:space-between;
-  flex-wrap:nowrap;
-  align-items:flex-start;
-  flex-direction: row;
-  margin-left:  150px;
+  justify-content: center;
   margin-top: 50px;
-  
+  margin-left: 400px;
+}
+.wrapperRight {
+  width: 300px;
+  margin-left: 30px;
+  justify-content: center;
+}
+.captureBox {
+  background-repeat: no-repeat;
+  background-size: 500px;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 70px;
+  font-weight: 400;
+}
+.captureBox p {
+  font-size: 14px;
   
 }
-.brand{
-  width: 10px;
-  display: flex;
-  justify-content:space-between;
-  flex-wrap:nowrap;
-  align-items:flex-start;
-  margin-left:  325px;
-  margin-top: 50px;
-  flex-direction: row;
-
-}
-.loginSign{
+/* .loginSign{
   width: 10px;
   display: flex;
   justify-content:space-between;
@@ -70,41 +30,69 @@ body {
   align-items: flex-start;
   margin-left:  400px;
   margin-top: 70px;
+  color:#1c5380; */
+/* } */
+.brand{
+  margin-top: 300px;
+  justify-content: center;
+  display:flex;
 
-  color:#1c5380;
+}
+.style{
+  display: flex;
+  justify-content: space-between;
+}
+.para{
+  
+  justify-content: center;
+  margin-right: 200px;
   
 }
-
 .iphoneSign{
-  width: 10px;
   display: flex;
-  justify-content:space-between;
-  flex-wrap:nowrap;
-  align-items: center;
- margin-left: 200px;
-  align-items:flex-start;
- 
+  justify-content: space-around;
+  width: 300px;
+  /* padding-right: 70px;
+  padding-left: 15px;
+  padding-top: 40px; */
 }
-
 .androidSign{
-  width: 10px;
   display: flex;
-  justify-content:space-between;
-  flex-wrap:nowrap;
-  align-items: center;
- margin-left: 300px;
-  align-items:flex-start;
-  
+  justify-content: space-around;
+  /* padding-right: 70px;
+  padding-left: 15px;
+  padding-top: 40px; */
+}
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.login {
+  background-image: linear-gradient(#6489a7, #1c5380);
+  /* padding: 5px 10px 5px 10px; */
+  /* border: #06365f solid 1px; */
+  /* border-radius: 3px; */
+  text-decoration: none;
+  color: lightgray;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
+  padding-right: 150px;
+  padding-left: 100px;
+}
 
-  width: 50px;
+.footer ul {
+  color: #1c5380;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
   display: flex;
-  justify-content:baseline; 
-  flex-wrap:nowrap;
-  align-items: center;
-  margin: 100px;
-  flex-direction: row;
-
+  justify-content: space-between;
 }
